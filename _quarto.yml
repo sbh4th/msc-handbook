@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "![](mcgill-epi-logo.png){width=600px} <br><br> MSc Handbook <br> 2023-2024 Academic Year </br>"
+  output-file: "msc-handbook"
+  author: "MSc Program Leadership"
+  date: today
+  chapters:
+    - index.qmd
+    - 01-intro.qmd
+    - 02-supervision.qmd
+    - 03-coursework.qmd
+    - 04-concentrations.qmd
+    - 05-protocol.qmd
+    - 06-thesis.qmd
+    - 07-policies.qmd
+    - 08-funding.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
